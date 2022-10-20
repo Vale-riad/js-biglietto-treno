@@ -9,6 +9,9 @@ console.log(price);
 if (age<18) {
     price = price-(price * 0.2);
 }
-console.log(age,price);
 // 5. applicare uno sconto del 40% se il passeggero è un over 65
+else if(age>=65) {
+    price = price-(price * 0.4);
+}
+console.log(age,price);
 // 6. stampare in pagina il prezzo finale del biglietto con massimo due decimali
