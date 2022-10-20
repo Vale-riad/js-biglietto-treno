@@ -1,0 +1,15 @@
+body{
+    margin :center;
+    
+}
+.box{
+    height: 200px;
+    width: 600px;
+    background-image: url(../img/index.jpg);
+    background-repeat: no-repeat;
+}
+h2{
+    display:flex;
+    color: white;
+    font-size:14px;
+}
