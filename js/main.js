@@ -14,5 +14,5 @@ else if(age>=65) {
     price = price-(price * 0.4);
 }
 // 6. stampare in pagina il prezzo finale del biglietto con massimo due decimali
-console.log( ` ${price.toFixed(2)} €` );
-document.querySelector("h1").innerHtml =  `Questo è il tuo biglietto ${price.toFixed(2)} €` ;
+console.log(`Questo è il tuo biglietto : ${price.toFixed(2)}€`)
+document.getElementById("ticket").innerHTML = `Questo è il tuo biglietto: ${price.toFixed(2)} €`;
