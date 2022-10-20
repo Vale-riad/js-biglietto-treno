@@ -7,6 +7,7 @@ body{
     width: 600px;
     background-image: url(../img/index.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 h2{
     display:flex;

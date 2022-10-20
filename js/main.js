@@ -10,9 +10,13 @@ if (age<18) {
     price = price-(price * 0.2);
 }
 // 5. applicare uno sconto del 40% se il passeggero è un over 65
-else if(age>=65) {
+else if (age>65) {
     price = price-(price * 0.4);
 }
-// 6. stampare in pagina il prezzo finale del biglietto con massimo due decimali
+//6. non si applica nessun sconto
+else {
+    price = price-(price * 0.21);
+}
+// 7. stampare in pagina il prezzo finale del biglietto con massimo due decimali
 console.log(`Questo è il tuo biglietto : ${price.toFixed(2)}€`)
 document.getElementById("ticket").innerHTML = `Questo è il tuo biglietto: ${price.toFixed(2)} €`;
